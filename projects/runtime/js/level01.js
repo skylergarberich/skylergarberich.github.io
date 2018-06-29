@@ -127,7 +127,7 @@ var level01 = function (window) {
             reward.onPlayerCollision = function(){
                 console.log('Halle has collected the reward');
                 game.increaseScore(500);
-                reward.fadeOut();
+                reward.fadeOut(); 
             //     cat.onProjectileCollision = function(){
             //     console.log('Halle has collected the reward');
             //     game.increaseScore(500);
@@ -139,7 +139,7 @@ var level01 = function (window) {
         // createEnemy(1200, groundY)
         //createEnemy(1200,groundY-10);
       
-      //  createBox(900,250);
+      //  createBox(900,250);s
         
         //createReward(900, groundY - 10);
         for(var i = 0; i < levelData.gameItems.length ; i++) {
